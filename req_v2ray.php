@@ -6,7 +6,7 @@
 $url = 'https://kabiriteam.nl.subhost.site/DrApi/';
 $token = 'Token';  #Put your token that you received from the @Authyourbot 
 
-$data = array('token' => $token);
+$data = array('CW914I23INIS152K0DFMOOOWQ5NA7QMD7N9134T7V5K674062NHPKC9XMP2GZ3QHXK249' => $token);
 
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_POST, 1);
